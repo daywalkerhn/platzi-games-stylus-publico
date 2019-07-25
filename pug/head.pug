@@ -1,8 +1,8 @@
 mixin caja(imagen, category, title, summary)
 	.caja
-		a(href="#",class="card__image"): img(src="../images/"+imagen)
+		a(href="#",class="caja__imagen"): img(src="../images/"+imagen)
 		.caja__contenido
-			span.card__category=category
+			span.caja__categoria=category
 			h3=title
 			p=summary
 		+estadistica
